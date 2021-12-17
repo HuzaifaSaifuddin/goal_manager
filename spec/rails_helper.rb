@@ -2,6 +2,7 @@
 require 'simplecov'
 require 'spec_helper'
 require 'support/database_cleaner.rb'
+require 'support/request_spec_helper.rb'
 require 'factory_bot'
 ENV['RAILS_ENV'] ||= 'test'
 
